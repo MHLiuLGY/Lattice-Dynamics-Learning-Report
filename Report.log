@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.24)  27 NOV 2023 21:08
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.24)  28 NOV 2023 00:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1253,7 +1253,24 @@ File: figures/1DMC.png Graphic file (type bmp)
 ]
 File: figures/BKBC.png Graphic file (type bmp)
 <figures/BKBC.png>
- [4] [5] [6
+ [4]
+File: figures/OmegaK.png Graphic file (type bmp)
+<figures/OmegaK.png>
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 271.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 271.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 271.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 271.
+ [5]
+File: figures/1DDC.png Graphic file (type bmp)
+<figures/1DDC.png>
+ [6]
+File: figures/1DDCEOF.png Graphic file (type bmp)
+<figures/1DDCEOF.png>
+ [7] [8] [9
 
 
 
@@ -1264,18 +1281,18 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2020/04/10>
  ***********
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: F65AACBE5AEFF60904D58F1DF52D4AAC;913.
+(rerunfilecheck)             Checksum: 319B673F0C2F6E1783C6867A98D7E43C;2440.
 Package logreq Info: Writing requests to 'Report.run.xml'.
 \openout1 = `Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35324 strings out of 474930
- 729915 string characters out of 5765288
- 1936189 words of memory out of 5000000
- 56810 multiletter control sequences out of 15000+600000
- 569679 words of font info for 169 fonts, out of 8000000 for 9000
+ 35401 strings out of 474930
+ 732052 string characters out of 5765288
+ 1943189 words of memory out of 5000000
+ 56876 multiletter control sequences out of 15000+600000
+ 570906 words of font info for 179 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,12n,114p,1226b,4649s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,114p,1226b,4653s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Report.pdf (9 pages).
+Output written on Report.pdf (12 pages).

@@ -187,7 +187,7 @@ style = {
 
 \section{一维单原子链 (1D Monoatomic Chain)}
 
-如图 \ref{1DMC} 所示，假设一个晶格常数为a，有N的原胞的一维单原子链，每个原胞内只有一个原子，为研究方便，先做以下两个假设：
+如图 \ref{1DMC} 所示，假设一个晶格常数为a，有N个原胞的一维单原子链，每个原胞内只有一个原子，为研究方便，先做以下两个假设：
 
 简谐假设，原子做简谐振动，原子之间作用力为简谐力，该力满足
 \begin{equation}
@@ -202,7 +202,7 @@ style = {
 
 在以上假设的基础上，对该模型进行如下分析。
 
-\subsection{运动方程 (Equation of motion)}
+\subsection{运动方程 (Equation of Motion)}
 
 对一维单原子链中第n个原子进行受力分析，即可得到它的运动方程。根据牛顿第二定律和胡克定律，有
 \begin{equation}
@@ -210,23 +210,22 @@ style = {
 \end{equation}
 化简可得
 \begin{equation}
-    m \ddot{u}_n = \beta (u_{n+1} - 2u_n + u_{n-1}) \text{。}
+    m \ddot{u}_n = \beta (u_{n+1} - 2u_n + u_{n-1}) \text{，}
 \end{equation}
-
 式中$\beta$，可以由两个原子之间的作用势进行的泰勒展开后得到，这里不做讨论；%
 $u_n$表示第n个原子的位移，$m$为原子质量。
 
 下面对该微分方程进行求解，根据二阶微分方程解的特征，可知$u_n$应满足：
 \begin{equation}
-    u_n = A e^{i(kx_n - \omega t)} = A e^{i(nak - \omega t)} \text{，}
+    u_n = A e^{i(kx_n - \omega t)} = A e^{i(nak - \omega t)} \text{，} \label{EOM}
 \end{equation}
 将其带回原方程，可得$\omega$ \~{} $k$关系，即色散关系：
 \begin{equation}
-    \omega = 2 \sqrt{\frac{\beta}{m}} \left | sin \frac{ka}{2} \right | \text{，}
+    \omega = 2 \sqrt{\frac{\beta}{m}} \left | sin \frac{ka}{2} \right | \text{，} \label{DRE}
 \end{equation}
 将在\ref{DR}节对其进行讨论。
 
-\subsection{波恩-卡门边界条件 (Born-Karman boundary condition)}
+\subsection{波恩-卡门边界条件 (Born-Karman Boundary Condition)}
 波恩-卡门边界条件，又称周期性边界条件。%
 由于前面所考虑的运动方程实际上只适用于无穷长的链，因为所有的原子都假设有相同的运动方程，而一个有限的链两端的原子显然应当与内部的原子有所不同。%
 虽然仅少数原子运动方程不同，但由于所有原子的方程都是联立的，具体解方程就复杂得多。
@@ -235,7 +234,7 @@ $u_n$表示第n个原子的位移，$m$为原子质量。
 \begin{figure}[htb]
     \centering
     \includegraphics[width=.5\textwidth]{BKBC.png}
-    \bicaption{波恩-卡门边界条件}{Born-Karman boundary condition}\label{BKBC}
+    \bicaption{波恩-卡门边界条件}{Born-Karman Boundary Condition}\label{BKBC}
 \end{figure}
 
 对于该模型，由于其周期性，显然有以下等式成立：
@@ -246,7 +245,7 @@ $u_n$表示第n个原子的位移，$m$为原子质量。
 
 将该式带入运动方程，可以得到关于k的一系列取值：
 \begin{equation}
-    k = \frac{2\pi}{Na}m \text{，}
+    k = \frac{2\pi}{Na}m \text{，} \label{K}
 \end{equation}
 其中，m可以取所有整数。
 
@@ -254,9 +253,143 @@ $u_n$表示第n个原子的位移，$m$为原子质量。
 但是由于在晶体中，N是一个及其大的数，因此，相较于布里渊区的大小，k可以当作是准连续的一个量。%
 此处得到的k的取值，将在后面分析格波数量时起到关键作用。
 
-\subsection{色散关系 (Dispersion relation)} \label{DR}
+\subsection{色散关系 (Dispersion Relation)} \label{DR}
 
+将等式\ref{DRE}和\ref{K}结合起来，得到完整的色散关系表达式：
+\begin{equation}
+    \omega = 2 \sqrt{\frac{\beta}{m}} \left | sin \frac{ka}{2} \right | \mathrm{,} \ k = \frac{2\pi}{Na}m \text{，}\label{DREK}
+\end{equation}
+其中，m可以取所有整数。
 
+色散关系反映的是波速和波长的关系，式中$\omega$和$k$分别可以作为反映波速和波长的物理量，%
+因此该$\omega$ \~{} $k$关系也称为色散关系。
+
+根据色散关系表达式，可以作出$\omega$ \~{} $k$在第一布里渊区的关系图：
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=.5\textwidth]{OmegaK.png}
+    \bicaption{$\omega$ \~{} $k$在第一布里渊区的关系图}{$\omega$ \~{} $k$ in 1st B.Z.}\label{OmegaK}
+\end{figure}
+
+由简谐振荡的相关概念可知，一维单原子链中的一个原子的固有频率由下式决定：
+\begin{equation}
+    \omega_0 = \sqrt{\frac{\beta}{m}} \text{；}
+\end{equation}
+而由色散关系的表达式\ref{DREK}可知，%
+一维单原子链的出现，上述谐振子的固有频率$\omega_0$被展宽为一个宽度为$2\omega_0$的频带，在这个频带中，%
+可以给出频率的最大值和最小值如下：
+\begin{align}
+    \omega_M &= \sqrt{\frac{\beta}{m}}\\
+    \omega_m &= 0 \text{。}
+\end{align}
+
+因此，可以说色散关系反映的是一维单原子链中所有原子的运动情况，它应该表征的是一些可以描述所有原子运动的物理量。%
+事实上，这N个原子的集体行为，可以反映出一种波动（行波），这一波动称为格波，将在下一节进行讨论。
+
+\subsection{格波 (Lattice Waves)} \label{LW}
+
+在经典物理中，机械波可以由波矢、频率等物理量来描述，对于晶体中的格波仍然可以如此分析。%
+由上一节给出的色散关系，一个确定的$k$，可以对应一个$\omega_0$，同时也就对应了晶体中的一个格波，或者是一种振动模式。
+
+为了更加清晰地了解格波的性质，现在引入独立格波这个概念。由于晶体的周期性，可以给出：
+\begin{equation}
+    \omega(k) = \omega(k+G),\ G=m \cdot \frac{2\pi}{a}\hat{a} \text{，}
+\end{equation}
+$G$是晶体中倒空间的倒格矢，m可以取所有整数。
+
+于是可以得知对应于$k$和$k+G$的格波，实际上具有相同的$\omega$，%
+反映在原子振动上，这两条格波描述的是同一种振动模式。因此在分析过程中，可以只分析其中一条。%
+将这两条格波对应同一种振动模式的格波视为一种格波，称为独立格波，此时一个$k$可以唯一对应一个格波。
+
+将上述分析推广至整个晶体，只需要分析第一布里渊区内的格波的性质，便可以得出有关晶格振动的相关规律。%
+于是我们可以把限定在第一布里渊区内的格波视为独立格波，而这些格波可以由简约波矢（位于第一布里渊区内的波矢）描述。
+
+下面就来讨论以下在一维单原子链中，独立格波的数量问题。由波恩-卡门边界条件给出的$k$的取值表达式\ref{K}，%
+若限定$k$在第一布里渊区内取值，可以得出m的取值范围：
+\begin{equation}
+    -\frac{N}{2} \le m < \frac{N}{2} \text{，}
+\end{equation}
+因此m的取值个数为N个，在第一布里渊区内$k$的取值也只能有N个。
+根据色散关系和独立格波的概念，在一维单原子链中，晶体中也只能有N个独立的振动模式或N个独立格波。
+
+同时，在一维单原子链中，每个原子有一个自由度数，N个原子则有N个自由度数，于是可以得出以下等式：
+\begin{equation}
+    \text{总自由度数}=\text{独立格波数} \text{。}
+\end{equation}
+可以证明，这一结论对于一维双原子链以及三维情况都是成立的，对于后面的学习十分重要。
+
+\section{一维双原子链 (1D Diatomic Chain)}
+
+如图 \ref{1DDC} 所示，假设一个晶格常数为a，有N个原胞的一维双原子链，每个原胞内有两个原子。
+为研究方便，同样作一维单原子链中的假设，即简谐假设和最近邻假设。
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=.7\textwidth]{1DDC.png}
+    \bicaption{一维双原子链}{1D Diatomic Chain}\label{1DDC}
+\end{figure}
+
+在以上假设的基础上，对该模型进行如下分析。
+
+\subsection{运动方程 (Equation of Motion)}
+
+类似一维单原子链，对一维双原子链中第n个原胞进行受力分析，即可得到它的运动方程。%
+根据牛顿第二定律和胡克定律，有
+\begin{align}
+    M \ddot{u}_n &= \beta (v_n + v_{n-1} - 2u_n)\\
+    m \ddot{v}_n &= \beta (u_n + u_{n+1} - 2v_n) \text{，}
+\end{align}
+式中$\beta$，可以由两个原子之间的作用势进行的泰勒展开后得到，这里不做讨论。%
+$u_n$表示第n个原胞中一个原子的位移，$M$为该原子质量；$v_n$表示第n个原胞中另一个原子的位移，$m$为该原子质量。%
+为了分析方便，假设$M>m$。如下图\ref{1DDCEOF}所示。
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=.7\textwidth]{1DDCEOF.png}
+    \bicaption{一维双原子链中的一个原胞}{A Primitive Cell in 1D Diatomic Chain}\label{1DDCEOF}
+\end{figure}
+
+下面求解这个运动方程（组）。根据二阶微分方程解的特征，可知$u_n$和$v_n$应满足：
+\begin{align}
+    u_n &= A e^{i(nak - \omega t)}\\
+    v_n &= B e^{i[(n + \frac{1}{2}) ak - \omega t]} \text{，} \label{1DDCEOM}
+\end{align}
+将其带回原方程，可得一个线性齐次代数方程组：
+\begin{equation}
+    \begin{cases}
+        (2 \beta - M \omega ^2)A-2 \beta \cos (\frac{1}{2}ak)B = 0,\\
+        -2\beta\cos (\frac{1}{2}ak)A + (2\beta - m \omega ^2)B = 0 \text{。}
+    \end{cases}
+\end{equation}
+
+要使该代数方程组有$A$和$B$的非零解，从而使得运动方程的表达式有意义，%
+需要将$A$和$B$当作求解变量，列出其系数行列式并令该行列式的值为零，于是有：
+\begin{equation}
+    \begin{vmatrix}
+        2 \beta - M \omega ^2 & -2 \beta \cos (\frac{1}{2}ak)\\
+        -2\beta\cos (\frac{1}{2}ak) & 2\beta - m \omega ^2
+    \end{vmatrix}
+    =0 \text{。}
+\end{equation}
+
+由上式可得$\omega^2$ \~{} $k$关系，亦即色散关系：
+\begin{equation}
+    \omega^2_\pm=\frac{\beta}{Mm}[(M+m)\pm\sqrt{M^2+m^2+2Mm\cos(ak)}] \text{。} \label{1DDCDR}
+\end{equation}
+
+式中，取$+$时，表示$\omega_+^2$，此时对应较高的频率；取$-$时，表示$\omega_-^2$，此时对应较低的频率。
+
+与一维单原子链中相同，一维双原子链依据波恩-卡门边界条件也可以得到关于 k 的一系列取值：
+\begin{equation}
+    k = \frac{2\pi}{Na}m \text{，} \label{1DDCK}
+\end{equation}
+其中，m可以取所有整数。
+
+\subsection{色散关系 (Dispersion Relation)}
+
+将式\ref{1DDCDR}中的$\omega_+^2$和$\omega_-^2$分开写，再次叙述这一色散关系：
+\begin{align}
+    \omega^2_+&=\frac{\beta}{Mm}[(M+m)+\sqrt{M^2+m^2+2Mm\cos(ak)}]\\
+    \omega^2_-&=\frac{\beta}{Mm}[(M+m)-\sqrt{M^2+m^2+2Mm\cos(ak)}] \text{。}
+\end{align}
 
 % 正文后部分
 \backmatter

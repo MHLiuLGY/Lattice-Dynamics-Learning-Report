@@ -5,7 +5,11 @@
 \contentsline {chapter}{\numberline {3、}晶格振动 (Lattice Vibration)}{3}{chapter.8}%
 \vspace {6pt}
 \contentsline {section}{\numberline {3.1}一维单原子链 (1D Monoatomic Chain)}{3}{section.9}%
-\contentsline {subsection}{\numberline {3.1.1}运动方程 (Equation of motion)}{3}{subsection.12}%
-\contentsline {subsection}{\numberline {3.1.2}波恩-卡门边界条件 (Born-Karman boundary condition)}{4}{subsection.17}%
-\contentsline {subsection}{\numberline {3.1.3}色散关系 (Dispersion relation)}{5}{subsection.21}%
-\contentsline {chapter}{参考文献}{6}{section*.22}%
+\contentsline {subsection}{\numberline {3.1.1}运动方程 (Equation of Motion)}{3}{subsection.12}%
+\contentsline {subsection}{\numberline {3.1.2}波恩-卡门边界条件 (Born-Karman Boundary Condition)}{4}{subsection.17}%
+\contentsline {subsection}{\numberline {3.1.3}色散关系 (Dispersion Relation)}{5}{subsection.21}%
+\contentsline {subsection}{\numberline {3.1.4}格波 (Lattice Waves)}{6}{subsection.27}%
+\contentsline {section}{\numberline {3.2}一维双原子链 (1D Diatomic Chain)}{7}{section.31}%
+\contentsline {subsection}{\numberline {3.2.1}运动方程 (Equation of Motion)}{7}{subsection.33}%
+\contentsline {subsection}{\numberline {3.2.2}色散关系 (Dispersion Relation)}{8}{subsection.43}%
+\contentsline {chapter}{参考文献}{9}{section*.46}%
