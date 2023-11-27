@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.24)  28 NOV 2023 00:27
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.24)  28 NOV 2023 00:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1270,7 +1270,13 @@ File: figures/1DDC.png Graphic file (type bmp)
  [6]
 File: figures/1DDCEOF.png Graphic file (type bmp)
 <figures/1DDCEOF.png>
- [7] [8] [9
+ [7]
+File: figures/1DDCDR.png Graphic file (type bmp)
+<figures/1DDCDR.png>
+ [8]
+File: figures/1DDCDR1.png Graphic file (type bmp)
+<figures/1DDCDR1.png>
+ [9] [10
 
 
 
@@ -1281,18 +1287,18 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2020/04/10>
  ***********
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 319B673F0C2F6E1783C6867A98D7E43C;2440.
+(rerunfilecheck)             Checksum: 2B4F56EC075F195593438E6B8BB40746;2440.
 Package logreq Info: Writing requests to 'Report.run.xml'.
 \openout1 = `Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35401 strings out of 474930
- 732052 string characters out of 5765288
+ 35457 strings out of 474930
+ 734817 string characters out of 5765288
  1943189 words of memory out of 5000000
- 56876 multiletter control sequences out of 15000+600000
+ 56930 multiletter control sequences out of 15000+600000
  570906 words of font info for 179 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,12n,114p,1226b,4653s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,114p,1226b,4649s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Report.pdf (12 pages).
+Output written on Report.pdf (13 pages).
