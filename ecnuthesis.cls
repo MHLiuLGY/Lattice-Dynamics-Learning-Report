@@ -1206,7 +1206,7 @@
     \clearpage{\thispagestyle{empty}\cleardoublepage}
   }
 % 目录
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{1}
 \tl_const:Nn \c__ecnu_name_toc_tl { 目录 }
 \cs_new_protected:Npn \__ecnu_patch_cmd:Nnn #1#2#3
   {
@@ -1231,9 +1231,18 @@
   {\bfseries\cftdotfill{1.0}}
 \RenewDocumentCommand \cftsecleader { }
   {\cftdotfill{1.0}}
+\RenewDocumentCommand \cftsubsecleader { }
+  {\cftdotfill{1.0}}
+%\RenewDocumentCommand \cftfigleader { }
+%  {\cftdotfill{1.0}}
+%\RenewDocumentCommand \cfttableader { }
+%  {\cftdotfill{1.0}}
 \setlength{\cftbeforechapskip}{6pt}
 \setlength{\cftchapnumwidth}{0pt}
 \setlength{\cftsecnumwidth}{0pt}
+\setlength{\cftsubsecnumwidth}{0pt}
+%\setlength{\cftfignumwidth}{0pt}
+%\setlength{\cfttabnumwidth}{0pt}
 \RenewDocumentCommand \@tocrmarg { } {0pt}
 \RenewDocumentCommand \cftchapfillnum { m }
   {
@@ -1245,6 +1254,21 @@
     {\cftsecleader}\nobreak
     {\cftsecpagefont #1}\cftsecafterpnum\par
   }
+\RenewDocumentCommand \cftsubsecfillnum { m }
+  {
+    {\cftsubsecleader}\nobreak
+    {\cftsubsecpagefont #1}\cftsubsecafterpnum\par
+  }
+%\RenewDocumentCommand \cftfigfillnum { m }
+%  {
+%    {\cftfigleader}\nobreak
+%    {\cftfigpagefont #1}\cftfigafterpnum\par
+%  }
+%\RenewDocumentCommand \cfttabfillnum { m }
+%  {
+%    {\cfttableader}\nobreak
+%    {\cfttabpagefont #1}\cfttabafterpnum\par
+%  }
 \pretocmd{\section}
   { \ifnum\value{section}=0\addtocontents{toc}{\protect\vspace{6pt}}\fi }
   {}{}
@@ -1314,6 +1338,8 @@
       \pagestyle{empty}
       \pagenumbering{roman}
       \tableofcontents
+      %\listoffigures
+      %\listoftables
     \group_end:
   }
 

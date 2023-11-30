@@ -12,4 +12,9 @@
 \contentsline {section}{\numberline {3.2}一维双原子链 (1D Diatomic Chain)}{7}{section.31}%
 \contentsline {subsection}{\numberline {3.2.1}运动方程 (Equation of Motion)}{7}{subsection.33}%
 \contentsline {subsection}{\numberline {3.2.2}色散关系 (Dispersion Relation)}{8}{subsection.43}%
-\contentsline {chapter}{参考文献}{11}{section*.49}%
+\contentsline {subsection}{\numberline {3.2.3}格波 (Lattice Waves)}{10}{subsection.49}%
+\contentsline {section}{\numberline {3.3}三维晶体 (3D Crystal)}{11}{section.52}%
+\contentsline {section}{\numberline {3.4}格波的量子化 (Quantization of Lattice Waves)}{12}{section.55}%
+\contentsline {subsection}{\numberline {3.4.1}振动模式和谐振子的等价性 (Equivalence Between A Vibration Mode and A Harmonic Oscillator)}{12}{subsection.56}%
+\contentsline {subsection}{\numberline {3.4.2}声子 (Phonon)}{13}{subsection.65}%
+\contentsline {chapter}{参考文献}{15}{section*.73}%
