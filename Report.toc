@@ -12,4 +12,4 @@
 \contentsline {section}{\numberline {3.2}一维双原子链 (1D Diatomic Chain)}{7}{section.31}%
 \contentsline {subsection}{\numberline {3.2.1}运动方程 (Equation of Motion)}{7}{subsection.33}%
 \contentsline {subsection}{\numberline {3.2.2}色散关系 (Dispersion Relation)}{8}{subsection.43}%
-\contentsline {chapter}{参考文献}{10}{section*.48}%
+\contentsline {chapter}{参考文献}{11}{section*.49}%

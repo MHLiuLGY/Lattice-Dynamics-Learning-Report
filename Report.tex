@@ -411,7 +411,29 @@ $u_n$表示第n个原胞中一个原子的位移，$M$为该原子质量；$v_n$
     \bicaption{$\omega$ \~{} $k$在第一布里渊区的关系图}{$\omega$ \~{} $k$ in 1st B.Z.} \label{1DDCDR1}
 \end{figure}
 
-如图\ref{1DDCDR1}所示，
+如图\ref{1DDCDR1}所示，其描述了在第一布里渊区内的$\omega$随$k$的变化趋势。%
+其中，在$k=0$和$k=\pm\frac{\pi}{a}$处，$\omega$取到极大值或极小值，如下表所示：
+\begin{table}[htb]
+    \centering
+    \bicaption{单体测试表}{Unit Test Case}\label{DRT}
+    \begin{tabular}{|l|l|}
+        \hline
+        输入系 & \begin{tabular}[c]{@{}l@{}}输入正常值\\ （最小值\textless{}值\textless{}最大值）\end{tabular} \\ \hline
+            & \begin{tabular}[c]{@{}l@{}}输入系统异常值\\ （值=最小值-1，值=最大值+1）\end{tabular}  \\ \hline
+            & \begin{tabular}[c]{@{}l@{}}输入系统正常值（边际测试）\\ （值=最小值，值=最大值）\end{tabular} \\ \hline
+            & 未输入值 \\ \hline
+        显示系 & 标题（Title）显示                                                                     \\ \hline
+            & 说明文显示                                                                           \\ \hline
+            & 显示相应业务的左菜单  \\ \hline
+            & 显示Text项目（不换行） \\ \hline
+            & 按需要显示排序按钮 \\ \hline
+            & 添加附件参照  \\ \hline
+        操作系 & IE返回按钮按下后画面迁移                                                                   \\ \hline
+            & IE $\times$按钮按下后，系统终了                                                           \\ \hline
+            & 下一画面迁移按钮按下后的迁移                                                                  \\ \hline
+            & 上一画面迁移按钮按下后的迁移                                                                  \\ \hline
+    \end{tabular}
+\end{table}
 
 % 正文后部分
 \backmatter
