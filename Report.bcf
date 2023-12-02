@@ -2925,7 +2925,10 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">./source/thesis-ref.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">xxx</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">main</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">1DC</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">phonon</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">zhihu2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

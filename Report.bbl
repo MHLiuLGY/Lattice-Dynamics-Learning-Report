@@ -19,22 +19,19 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{xxx}{misc}{}
+    \entry{main}{misc}{}
       \name{author}{1}{}{%
         {{hash=3434ad87986788a07e4647f2c6161aa5}{%
-           family={叶益聪},
+           family={{叶益聪}},
            familyi={叶\bibinitperiod}}}%
       }
       \name{namea}{1}{}{%
         {{hash=3434ad87986788a07e4647f2c6161aa5}{%
-           family={叶益聪},
+           family={{叶益聪}},
            familyi={叶\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {chinese}%
-      }
-      \list{organization}{1}{%
-        {\url{https://www.icourse163.org/course/NUDT-1206139804}}%
       }
       \strng{namehash}{3434ad87986788a07e4647f2c6161aa5}
       \strng{fullhash}{3434ad87986788a07e4647f2c6161aa5}
@@ -52,11 +49,147 @@
       \field{langid}{english}
       \field{languageid}{chinese}
       \field{lansortorder}{1}
+      \field{note}{\url{https://www.icourse163.org/course/NUDT-1206139804}, Last accessed on 2023-12-2}
       \field{title}{简明固体物理}
       \field{usera}{Z}
       \field{userd}{chinese}
       \field{userf}{chinese}
-      \keyw{xxx}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \keyw{main}
+    \endentry
+    \entry{1DC}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bb7a4e51b230e5f2442294183b7692be}{%
+           family={李书义},
+           familyi={李\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=bb7a4e51b230e5f2442294183b7692be}{%
+           family={李书义},
+           familyi={李\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{bb7a4e51b230e5f2442294183b7692be}
+      \strng{fullhash}{bb7a4e51b230e5f2442294183b7692be}
+      \strng{bibnamehash}{bb7a4e51b230e5f2442294183b7692be}
+      \strng{authorbibnamehash}{bb7a4e51b230e5f2442294183b7692be}
+      \strng{authornamehash}{bb7a4e51b230e5f2442294183b7692be}
+      \strng{authorfullhash}{bb7a4e51b230e5f2442294183b7692be}
+      \strng{nameabibnamehash}{bb7a4e51b230e5f2442294183b7692be}
+      \strng{nameanamehash}{bb7a4e51b230e5f2442294183b7692be}
+      \strng{nameafullhash}{bb7a4e51b230e5f2442294183b7692be}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{中国西部科技}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{number}{4}
+      \field{title}{对一维原子链晶格振动的讨论}
+      \field{usera}{J}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{36\bibrangedash 37}
+      \range{pages}{2}
+      \keyw{1DC}
+    \endentry
+    \entry{phonon}{article}{}
+      \name{author}{2}{}{%
+        {{hash=318909d789f8cee6fd51045e47e5444f}{%
+           family={谢梦祥},
+           familyi={谢\bibinitperiod}}}%
+        {{hash=c8a35ba8cd88f1644be963ec3cda840c}{%
+           family={任捷},
+           familyi={任\bibinitperiod}}}%
+      }
+      \name{namea}{2}{}{%
+        {{hash=318909d789f8cee6fd51045e47e5444f}{%
+           family={谢梦祥},
+           familyi={谢\bibinitperiod}}}%
+        {{hash=c8a35ba8cd88f1644be963ec3cda840c}{%
+           family={任捷},
+           familyi={任\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \list{publisher}{1}{%
+        {物理}%
+      }
+      \strng{namehash}{4e06bb1089848602a12d2700831f6928}
+      \strng{fullhash}{6d60ccae46743be582d8488fddd96771}
+      \strng{bibnamehash}{6d60ccae46743be582d8488fddd96771}
+      \strng{authorbibnamehash}{6d60ccae46743be582d8488fddd96771}
+      \strng{authornamehash}{4e06bb1089848602a12d2700831f6928}
+      \strng{authorfullhash}{6d60ccae46743be582d8488fddd96771}
+      \strng{nameabibnamehash}{6d60ccae46743be582d8488fddd96771}
+      \strng{nameanamehash}{4e06bb1089848602a12d2700831f6928}
+      \strng{nameafullhash}{6d60ccae46743be582d8488fddd96771}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{物理}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{number}{12}
+      \field{title}{“声子” 的诞生}
+      \field{usera}{J}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{volume}{51}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{855\bibrangedash 865}
+      \range{pages}{11}
+      \keyw{phonon}
+    \endentry
+    \entry{zhihu2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1b043bac4e37d8b1e3d60c45cde6f21f}{%
+           family={{文生于}},
+           familyi={文\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=1b043bac4e37d8b1e3d60c45cde6f21f}{%
+           family={{文生于}},
+           familyi={文\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{1b043bac4e37d8b1e3d60c45cde6f21f}
+      \strng{fullhash}{1b043bac4e37d8b1e3d60c45cde6f21f}
+      \strng{bibnamehash}{1b043bac4e37d8b1e3d60c45cde6f21f}
+      \strng{authorbibnamehash}{1b043bac4e37d8b1e3d60c45cde6f21f}
+      \strng{authornamehash}{1b043bac4e37d8b1e3d60c45cde6f21f}
+      \strng{authorfullhash}{1b043bac4e37d8b1e3d60c45cde6f21f}
+      \strng{nameabibnamehash}{1b043bac4e37d8b1e3d60c45cde6f21f}
+      \strng{nameanamehash}{1b043bac4e37d8b1e3d60c45cde6f21f}
+      \strng{nameafullhash}{1b043bac4e37d8b1e3d60c45cde6f21f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{note}{\url{https://zhuanlan.zhihu.com/p/483552091}, Last accessed on 2023-12-2}
+      \field{title}{固体物理：3.4 电子热容}
+      \field{usera}{Z}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \keyw{zhihu2}
     \endentry
   \enddatalist
 \endrefsection
