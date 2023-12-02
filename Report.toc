@@ -17,4 +17,21 @@
 \contentsline {section}{\numberline {3.4}格波的量子化 (Quantization of Lattice Waves)}{12}{section.55}%
 \contentsline {subsection}{\numberline {3.4.1}振动模式和谐振子的等价性 (Equivalence Between A Vibration Mode and A Harmonic Oscillator)}{12}{subsection.56}%
 \contentsline {subsection}{\numberline {3.4.2}声子 (Phonon)}{13}{subsection.65}%
-\contentsline {chapter}{参考文献}{15}{section*.73}%
+\contentsline {subsection}{\numberline {3.4.3}晶格振动能量 (Lattice Vibration Energy)}{14}{subsection.73}%
+\contentsline {subsection}{\numberline {3.4.4}态密度 (Density of States)}{15}{subsection.78}%
+\contentsline {chapter}{\numberline {4、}声子热容 (Phonon Heat Capacity)}{18}{chapter.87}%
+\vspace {6pt}
+\contentsline {section}{\numberline {4.1}杜隆-珀蒂定律 (Dulong Petit Law)}{19}{section.93}%
+\contentsline {subsection}{\numberline {4.1.1}能量均分学说 (Energy Equipartition Theorem)}{19}{subsection.94}%
+\contentsline {subsection}{\numberline {4.1.2}理想气体热容 (Heat Capacity of Ideal Gas)}{19}{subsection.99}%
+\contentsline {subsection}{\numberline {4.1.3}固体热容 (Heat Capacity of Solid)}{20}{subsection.104}%
+\contentsline {section}{\numberline {4.2}爱因斯坦热容模型 (Einstein Heat Capacity Model)}{20}{section.108}%
+\contentsline {subsection}{\numberline {4.2.1}假设 (Assumption)}{20}{subsection.109}%
+\contentsline {subsection}{\numberline {4.2.2}结果 (Results)}{20}{subsection.113}%
+\contentsline {subsection}{\numberline {4.2.3}问题 (Problem)}{21}{subsection.119}%
+\contentsline {section}{\numberline {4.3}德拜热容模型 (Debye Heat Capacity Model)}{22}{section.120}%
+\contentsline {subsection}{\numberline {4.3.1}假设 (Assumption)}{22}{subsection.121}%
+\contentsline {subsection}{\numberline {4.3.2}处理 (Methods of Debye Model)}{22}{subsection.123}%
+\contentsline {subsection}{\numberline {4.3.3}结果 (Results)}{23}{subsection.132}%
+\contentsline {chapter}{\numberline {5、}学习心得}{25}{chapter.136}%
+\contentsline {chapter}{参考文献}{26}{section*.137}%
